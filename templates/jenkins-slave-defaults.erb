@@ -75,7 +75,7 @@ for LABEL in $LABELS; do
 done
 
 if [ -n "$FSROOT" ]; then
-  FSROOT_ARG="-fsroot '$FSROOT'"
+  FSROOT_ARG="-fsroot $FSROOT"
 fi
 
 <% if @tool_locations %>
